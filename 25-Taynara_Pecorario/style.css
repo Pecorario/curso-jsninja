@@ -1,0 +1,21 @@
+[data-js="p"] {
+  display: inline-block;
+}
+
+[data-js="animationPlane"] {
+  margin-top: 20px;
+}
+
+img {
+  width: 100px;
+  animation: fly 4s;
+}
+
+@keyframes fly {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(1200px);
+  }
+}
